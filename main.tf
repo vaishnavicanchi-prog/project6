@@ -3,7 +3,7 @@ provider "aws" {
 }
  
 resource "aws_s3_bucket" "project6_bucket" {
-  bucket = "vaishnavi-bucket-project6"
+  bucket = "vaishnavi-bucket-project6-changed"
  
   tags = {
     Name        = "Project6Bucket"
